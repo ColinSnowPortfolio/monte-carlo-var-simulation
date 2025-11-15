@@ -1,13 +1,13 @@
 # Monte Carlo Value at Risk (VaR) Simulation
 
-This project models portfolio risk using Monte Carlo simulations to estimate Value at Risk (VaR) and Conditional VaR (CVaR). The goal is to demonstrate quantitative finance techniques using Python and applied mathematics.
+This project models portfolio risk using Monte Carlo simulations to estimate Value at Risk (VaR). The goal is to demonstrate quantitative finance techniques using Python and applied mathematics.
 
 ## Overview
 
 This simulation:
 - Generates correlated asset returns using a multivariate normal distribution.
 - Simulates thousands of portfolio outcomes to estimate risk.
-- Calculates 95% and 99% Value at Risk (VaR) and Conditional VaR (expected shortfall).
+- Calculates 95% Value at Risk (VaR)
 - Visualizes the loss distribution and tail risk.
 
 ## Mathematical Background
@@ -29,15 +29,14 @@ These are standard tools in quantitative risk management and portfolio optimizat
 
 - Python 3.11
 - NumPy
-- Pandas
+- yfinance
 - Matplotlib / Seaborn
 - JupyterLab
 
 ## Example Output
 
 - Simulated loss distribution
-- Calculated VaR/CVaR at multiple confidence levels
-- Comparison with analytical normal approximation
+- Calculated VaR at multiple confidence levels
 
 ## Future Extensions
 
